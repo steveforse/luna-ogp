@@ -58,6 +58,18 @@ group :development, :test do
 
   # Use RSpec for testing [https://rspec.info/]
   gem "rspec-rails", "~> 8.0.0"
+
+  # Use Factory Bot for test data creation
+  gem "factory_bot_rails"
+
+  # Use Faker for generating fake data
+  gem "faker"
+
+  # Use Shoulda Matchers for concise one-liner tests
+  gem "shoulda-matchers", require: false
+
+  # Use Pry and Byebug for debugging
+  gem "pry-byebug"
 end
 
 group :development do
