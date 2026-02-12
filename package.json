@@ -2,7 +2,33 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
     "vite": "^7.3.1",
     "vite-plugin-ruby": "^5.1.2"
+  },
+  "dependencies": {
+    "@mantine/carousel": "^8.3.14",
+    "@mantine/charts": "^8.3.14",
+    "@mantine/code-highlight": "^8.3.14",
+    "@mantine/core": "^8.3.14",
+    "@mantine/dates": "^8.3.14",
+    "@mantine/dropzone": "^8.3.14",
+    "@mantine/form": "^8.3.14",
+    "@mantine/hooks": "^8.3.14",
+    "@mantine/modals": "^8.3.14",
+    "@mantine/notifications": "^8.3.14",
+    "@mantine/nprogress": "^8.3.14",
+    "@mantine/spotlight": "^8.3.14",
+    "@mantine/tiptap": "^8.3.14",
+    "@tiptap/extension-link": "^3.19.0",
+    "@tiptap/pm": "^3.19.0",
+    "@tiptap/react": "^3.19.0",
+    "@tiptap/starter-kit": "^3.19.0",
+    "dayjs": "^1.11.19",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.7.0"
   }
 }
